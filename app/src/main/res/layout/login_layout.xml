@@ -18,6 +18,7 @@
         android:src="@drawable/flores" />
 
     <EditText
+        android:id="@+id/edtLoginEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/baseline_alternate_email"
@@ -29,6 +30,7 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/edtLoginSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
@@ -41,6 +43,7 @@
         android:textSize="20sp" />
 
     <Button
+        android:id="@+id/btnEntrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -49,6 +52,7 @@
         android:textSize="20sp" />
 
     <Button
+        android:id="@+id/btnSair"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
