@@ -18,34 +18,42 @@
         android:src="@drawable/flores" />
 
     <EditText
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_alternate_email"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
         android:maxLength="50"
-        android:paddingLeft="10sp" />
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:textSize="20sp" />
 
     <EditText
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
+        android:drawableEnd="@drawable/baseline_lock"
         android:hint="Senha"
         android:inputType="textPassword"
         android:maxLength="12"
-        android:paddingLeft="10sp" />
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Entrar" />
+        android:padding="15sp"
+        android:text="Entrar"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Sair" />
+        android:padding="15sp"
+        android:text="Sair"
+        android:textSize="20sp" />
 
 </LinearLayout>
