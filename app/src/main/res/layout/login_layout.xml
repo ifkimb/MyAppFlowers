@@ -18,13 +18,23 @@
         android:src="@drawable/flores" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20sp" />
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:paddingLeft="10sp" />
+
+    <EditText
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        android:paddingLeft="10sp" />
 
     <Button
         android:layout_width="match_parent"
